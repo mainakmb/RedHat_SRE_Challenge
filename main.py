@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import re
 import os
 import sys
@@ -58,6 +60,8 @@ for link in cleanLst:
 
     finalDict[link] = repoDict
 
+if finalDict == {}:
+    finalDict = {"Error": "Invalid Links"}
 
 print(json.dumps({"data":finalDict}, indent=2))
 
