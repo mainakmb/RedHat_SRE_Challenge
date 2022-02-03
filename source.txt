@@ -1,0 +1,5 @@
+https://github.com/app-sre/qontract-reconcile.git 30af65af14a2dce962df923446afff24dd8f123e
+https://github.com/app-sre/container-images.git c260deaf135fc0efaab365ea234a5b86b3ead404
+https://github.com/rancher/rancher.git 415ee9d1cfe8a8ae452671f82502cb49c792fd5c
+https://github.com/etcd-io/etcd.git 02d4de62002cbd3dd4730101cffcc337e5d232b9
+https://github.com/docker-library/wordpress.git 1b7873367ec93d971105aa21a54185d889bbbee3
