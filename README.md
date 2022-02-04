@@ -53,3 +53,12 @@ or
   }
 }
 ```
+
+## Docker Uage
+
+Set env variable  `GITHUB_API_TOKEN`
+
+```
+docker run -e GITHUB_API_TOKEN=XXXXXXX --name test mainakmb/imageinfo-grabber source.txt/raw_text_link
+```
+
