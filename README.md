@@ -54,7 +54,7 @@ or
 }
 ```
 
-## Docker Uage
+## Docker Usage
 
 Set env variable  `GITHUB_API_TOKEN`
 
@@ -62,3 +62,17 @@ Set env variable  `GITHUB_API_TOKEN`
 docker run -e GITHUB_API_TOKEN=XXXXXXX --name test mainakmb/imageinfo-grabber source.txt/raw_text_link
 ```
 
+## Run as Kubernetes Job
+
+Edit the `job.yaml` file, set the `GITHUB_API_TOKEN` value and set the `args`
+
+```
+  - name: imageinfo-grabber
+    image: mainakmb/imageinfo-grabber:1.0
+    env:
+    - name: GITHUB_API_TOKEN
+      value: "<acccess-key>"
+    args: 
+    - "https://gist.githubusercontent.com/jmelis/c60e61a893248244dc4fa12b946585c4/raw/25d39f67f2405330a6314cad64fac423a171162c/sources.txt"
+  restartPolicy: Never
+```
