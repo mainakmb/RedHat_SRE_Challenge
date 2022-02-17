@@ -22,7 +22,7 @@ pip3 install -r requirements.txt
 
 or
 
-./main.py https://gist.githubusercontent.com/jmelis/c60e61a893248244dc4fa12b946585c4/raw/25d39f67f2405330a6314cad64fac423a171162c/sources.txt
+./main.py https://gist.githubusercontent.com/jmelis/c60e61a893248244dc4fa12b946585c4/raw/25d39f67f2405330a6314cad64fac423a171162c/sources.txt source.txt
 ```
 
 ## Sample Output
